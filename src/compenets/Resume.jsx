@@ -72,55 +72,47 @@ const cv = [
         id: 1,
         title: 'Masters of Financial Engineering',
         subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
+        date:'2023-2025',
+        description:'I join an online master program of Worldquant University that introduces financial engineering and econometrics.',
         category: 'education',
     },
 
     {
         id: 2,
-        title: 'Masters of Financial Engineering',
-        subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
+        title: 'Masters of Science - Artificial Intelligence',
+        subtitle:'Leiden University',
+        date:'2022-2024',
+        description:'I a master student at Leiden University, Netherlands.',
         category: 'education',
     },
 
     {
         id: 3,
-        title: 'Masters of Financial Engineering',
-        subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
+        title: 'Bachelor of Engineering - Automation',
+        subtitle:'Jiangsu University',
+        date:'2018-2022',
+        description:'I was majoring in automation in Jiangsu University, China. The automation major combines applied mathematics with electrical engineering, giving me an opportunity to explore the STEM field.',
         category: 'education',
     },
 
     {
         id: 4,
-        title: 'Masters of Financial Engineering',
-        subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
+        title: 'Student Assitant - Math for CS students',
+        subtitle:'Leiden University',
+        date:'2023-2024',
+        description:'Developing the curriculum and lecturing to master computer science student.',
         category: 'experience',
     },
 
     {
         id: 5,
-        title: 'Masters of Financial Engineering',
-        subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
+        title: 'Machine Learning Engineer',
+        subtitle:'supplai',
+        date:'2023',
+        description:'Thesis Internship in supplai, a transformer based OCR Detection and Recognition',
         category: 'experience',
     },
 
-    {
-        id: 6,
-        title: 'Masters of Financial Engineering',
-        subtitle:'Worldquant University',
-        date:'2023-Ongoing',
-        description:'some desctiption',
-        category: 'experience',
-    },
 ]
 
 export default Resume;

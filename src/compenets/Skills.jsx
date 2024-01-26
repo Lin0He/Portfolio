@@ -61,23 +61,23 @@ export default Skills;
 
 const cards = [
   {
-    text: "write something",
-    title: "Title 1",
+    text: "python, C/C++, javascript, Rust ",
+    title: "Programming",
     id: 1,
   },
   {
-    text:  "write something",
-    title: "Title 2",
+    text:  "Tensorflow, Cuda, Pytorch, Keras, React",
+    title: "Framework",
     id: 2,
   },
   {
-    text:  "write something",
-    title: "Title 3",
+    text:  "Git, Conda, Latex, Linux/Unix, Unity",
+    title: "Tools",
     id: 3,
   },
   {
-    text: "write something",
-    title: "Title 4",
+    text: "Mandarin/Cantonese(Native), English(Professional), Japanese(Professional), Dutch(Beginning)",
+    title: "Languages",
     id: 4,
   },
   
