@@ -1,0 +1,146 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    padding: 0;
+    background: rgba(113, 163, 126, 0.566);
+}
+
+
+nav{
+    z-index: 3;
+    align-items: flex-end;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    border: 1px rgba(255, 255, 255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background-image: url("./../images/character.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 10vh;
+}
+
+nav a{
+    font-size: 1.5rem;
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(57, 61, 85); 
+    
+} 
+
+nav a:hover{
+    color:  rgb(255, 227, 113);
+    border-bottom: 5px solid rgba(255, 227, 113, 0.562);
+}
+
+nav li:first-child{
+    margin-right: auto;
+
+}
+.navbar {
+    backdrop-filter: blur(5px);
+    display: flex;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 1px rgba(255, 255, 255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.sidebar li{
+    width: 100%;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+
+.sidebar a{
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.hideSide{
+    display: flex;
+}
+
+.hideIcon{
+    display: none;
+}
+
+
+@media(max-width: 900px){
+    .hideIcon{
+        display: flex;
+    }
+    .hideSide{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 950px){
+    .sidebar{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .sidebar{
+        width: 100vw;
+    }
+}
+
+.container {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    display: flex;
+    justify-content: center; /* Center vertically in column */
+    align-items: flex-start; /* Align to the start of the container */
+}
+
+.name {
+    font-size: 5rem;
+    position: relative;
+    top: 10%;
+    right: 20%; /* Position the element 1/4th down the container */
+    font-weight: 400;
+    font-family: 'Babylonica', cursive;
+    color: rgb(41, 45, 63);
+}
+

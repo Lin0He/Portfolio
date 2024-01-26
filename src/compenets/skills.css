@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .custom-css {
+      flex: 0 1 auto;
+      transition: all 500ms ease-in-out;
+    }
+    .custom-css:hover {
+      flex: 1 0 auto;
+    }
+  }

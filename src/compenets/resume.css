@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume{
+    background-image: var(--second-gradient);
+    padding: 5%;
+}
+
+.resume h2{
+    font-size: 2em;
+    color: #292d3f;
+}
+
+.resume_title{
+    text-align: left;
+}
+
+.resume_head{
+    text-align: center;
+    padding: 60px;
+    color: #292d3f;
+}
+
+.resume_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+    gap: 16px; 
+}
+
+@media(max-width: 1040px){
+    .resume_container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.resume_heading{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 30px;
+    color: #292d3f;
+}
+
+.resume_heading,
+.resume_item{
+    border-bottom: 3px solid #b68f9dd8;
+}
+
+
+.resume_item{
+    position: flex;
+}
+
+.resume_header{
+    padding:32px 30px;
+}
+
+.resume_title{
+    font-size: 1.2em;
+    cursor:pointer;
+    color: #292d3f;
+}
+
+
+.resume_content {
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+    max-height: 0; 
+    opacity: 0;  
+}
+
+.resume_content.show {
+    max-height: 1000px; /* Adjust as needed to fit the content */
+    opacity: 1;         /* Make content fully visible */
+}
+
+.resume_subtitle{
+    font-size: 1em;
+    color:#292d3fca;
+}
+
+.resume_line{
+    display: grid;
+    
+}
+
+.resume_date{
+    padding-left: 50px;
+    color:#292d3fd7;
+    font-size:0.8em;
+    font-weight: 600;
+}
+.resume_description{
+    margin-block: 20px 30px;
+    color: aliceblue;
+}
