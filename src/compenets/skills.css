@@ -10,4 +10,57 @@
     .custom-css:hover {
       flex: 1 0 auto;
     }
+
+    .code_icon{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-rows: repeat(2, 1fr); /* 2 rows */
+      row-gap: 40px; /* Adjust the gap as needed */
+      font-size: 100px;
+      justify-items: center;
+      align-items: center; 
+    }
+
+    .icon_container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .icon_text {
+      position: absolute;
+      font-size: large;
+      color: #b68f9d;
+      bottom: -25px; /* Adjust as needed */
+      left: 50%;
+      transform: translateX(-50%);
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    .icon_language {
+      position: absolute;
+      font-size: large;
+      color: #292d3f;
+      bottom: -25px; /* Adjust as needed */
+      left: 50%;
+      transform: translateX(-50%);
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    .icon_container:hover .icon_text {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .icon_container:hover .icon_language {
+      visibility: visible;
+      opacity: 1;
+    }
+
   }
+
