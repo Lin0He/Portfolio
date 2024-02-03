@@ -1,0 +1,25 @@
+.container {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    display: flex;
+    justify-content: center; /* Center vertically in column */
+    align-items: flex-start; /* Align to the start of the container */
+}
+
+.name {
+    font-size: 5rem;
+    position: relative;
+    top: 10%;
+    right: 20%; /* Position the element 1/4th down the container */
+    font-weight: 400;
+    font-family: 'Babylonica', cursive;
+    color: rgb(41, 45, 63);
+}
+
+.bg {
+    background-image: url("./../images/character.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}

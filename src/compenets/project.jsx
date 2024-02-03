@@ -9,7 +9,7 @@ const project = () => {
                 <div className="projectContent">
                 <h2>AI/ML Projects</h2>
                 <p>CV, NLP, RecomS, everything about algorithms.</p>
-                <a href="#ProjectAI">Explore</a>
+                <a href="AI">Explore</a>
                 </div>
             </div>
 
@@ -18,7 +18,7 @@ const project = () => {
                 <div className="projectContent">
                 <h2>Data Projects</h2>
                 <p>Data anaylsis and modelling for financial data.</p>
-                <a href="#ProjectData">Explore</a>
+                <a href="DS">Explore</a>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ const project = () => {
                 <div className="projectContent">
                 <h2>Software Projects</h2>
                 <p>Softwares, API projects with business mind. </p>
-                <a href="#ProjectSW">Explore</a>
+                <a href="SW">Explore</a>
                 </div>
             </div>
         </div> 

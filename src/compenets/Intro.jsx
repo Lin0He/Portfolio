@@ -15,7 +15,7 @@ const Intro = () => {
                             1000,
                             ' a Software Engineer',
                             1000,
-                            ' a Data Scientist',
+                            ' a Machine Learning Engineer',
                             1000
                         ]}
                         className="intro"
