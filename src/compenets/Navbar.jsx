@@ -1,7 +1,7 @@
 import "./style.css"
 import React, { useState, useEffect} from "react";
 const menuIcon = new URL("./../images/menuIcon.png", import.meta.url);
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const Navbar =()=>  {
@@ -34,6 +34,7 @@ const Navbar =()=>  {
     }, []);
 
     return (
+        <div>
         <body>
             <nav>
                 <ul className="sidebar">
@@ -46,7 +47,7 @@ const Navbar =()=>  {
                 </ul>
                 
                 <ul className="navbar">
-                    <li><a href="/Portfolio/#" >Home</a></li>
+                    <li><a href="/Portfolio/" >Home</a></li>
                     <li className="hideSide"><a href="/Portfolio/#About" >About</a></li>
                     <li className="hideSide"><a href="/Portfolio/#Projects" >Projects</a></li>
                     <li className="hideSide"><a href="/Portfolio/#Skills" >Skills</a></li>
@@ -56,7 +57,10 @@ const Navbar =()=>  {
                 </ul>
                
             </nav >
+            
         </body>
+        <Outlet/>
+        </div>
     );
 
 

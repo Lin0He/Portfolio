@@ -14,24 +14,14 @@ import SW from "./projects/SW";
 //
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/Portfolio/" element={
-          <>
-            <Home/>
-            <Intro/>
-            <Project/>
-            <Skills/>
-            <Resume/>
-            <Contact/>
-          </>
-        }/>
-        <Route path="/AI" element={<AI />} />
-        <Route path="/DS" element={<DS />} />
-        <Route path="/SW" element={<SW />} />
-      </Routes>
-    </Router>
+      <section>
+          <Home/>
+          <Intro/>
+          <Project/>
+          <Skills/>
+          <Resume/>
+          <Contact/>
+        </section>
   );
 }
 
