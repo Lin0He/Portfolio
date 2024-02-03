@@ -16,22 +16,22 @@ function App() {
   return (
     <Router>
       <Navbar/>
-    <Routes>
-      <Route path="/" element={
-        <>
-          <Home/>
-          <Intro/>
-          <Project/>
-          <Skills/>
-          <Resume/>
-          <Contact/>
-        </>
-      }/>
-      <Route path="/AI" element={<AI />} />
-      <Route path="/DS" element={<DS />} />
-      <Route path="/SW" element={<SW />} />
-    </Routes>
-  </Router>
+      <Routes>
+        <Route path="/Portfolio/" element={
+          <>
+            <Home/>
+            <Intro/>
+            <Project/>
+            <Skills/>
+            <Resume/>
+            <Contact/>
+          </>
+        }/>
+        <Route path="/Portfolio/AI" element={<AI />} />
+        <Route path="/Portfolio/DS" element={<DS />} />
+        <Route path="/Portfolio/SW" element={<SW />} />
+      </Routes>
+    </Router>
   );
 }
 

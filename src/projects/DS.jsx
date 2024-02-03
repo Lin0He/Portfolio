@@ -2,7 +2,9 @@ import React from 'react'
 
 const DS = () => {
   return (
-    <div>DS</div>
+    <div>
+      <h1>Show DS</h1>
+    </div>
   )
 }
 

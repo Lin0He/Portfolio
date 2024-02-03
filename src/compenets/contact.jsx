@@ -17,9 +17,9 @@ const Contact = () => {
   }
 
     return (
-        <div class="container mx-auto my-40" id="Contact">
-        <div class="px-40 shadow-xl hover:shadow-none transition-shadow duration-500 rounded-lg">
-          <h4 class="text-center text-5xl text-[#414563] my-10 ">Contact</h4>
+        <div class="container mx-auto my-40 h-60" id="Contact">
+        <div class="px-20 shadow-xl hover:shadow-none transition-shadow duration-500 rounded-lg">
+          <h4 class="text-center text-5xl text-[#414563] my-10 ">Contact Me</h4>
       
           <form ref={form} onSubmit={sendEmail}>
             <div class="grid grid-cols-2 gap-5">
@@ -39,7 +39,7 @@ const Contact = () => {
                 cols="10"
                 rows="5"
                 class="border px-4 py-2 focus:outline-none focus:border-[#a26c7e8f] focus:border-[3px] col-span-2 rounded-lg"
-                placeholder="Write your message..."
+                placeholder="Write some message..."
                 name="message"
               ></textarea>
             </div>

@@ -17,9 +17,9 @@ import { FaUnity } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div id="Skills">
-      <div className="flex h-40 items-center justify-center">
-        <span className="text-6xl  text-[#414563]">
+    <div id="Skills" >
+      <div className="flex h-60 items-center justify-center">
+        <span className="text-5xl  text-[#414563]">
           Professional Skills
         </span>
       </div>
