@@ -27,9 +27,9 @@ function App() {
             <Contact/>
           </>
         }/>
-        <Route path="/Portfolio/AI" element={<AI />} />
-        <Route path="/Portfolio/DS" element={<DS />} />
-        <Route path="/Portfolio/SW" element={<SW />} />
+        <Route path="/AI" element={<AI />} />
+        <Route path="/DS" element={<DS />} />
+        <Route path="/SW" element={<SW />} />
       </Routes>
     </Router>
   );
