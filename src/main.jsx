@@ -13,12 +13,13 @@ import Skills from "./compenets/Skills";
 import Resume from "./compenets/Resume";
 import Contact from "./compenets/contact";
 import Navbar from './compenets/Navbar.jsx'
+import Layout from './layout.jsx';
 
 const router = createBrowserRouter(
   [
     {
-      path: "/Portfolio/",
-      element:<Navbar/>,
+      path: "/Portfolio",
+      element:<Layout />,
       children: [
         {
           path: "/Portfolio/",
